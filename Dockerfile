@@ -10,4 +10,4 @@ EXPOSE 15500
 
 COPY . /app/
 
-ENTRYPOINT ["node", "./index.js"]
+ENTRYPOINT ["node", "./index.js", "--minify=true"]
